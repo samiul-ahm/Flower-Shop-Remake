@@ -72,3 +72,122 @@ header {
   margin-bottom: 147px;
   border: none;
 }
+
+/* ! hero section */
+
+.hero {
+  border: 2px solid black;
+}
+
+.hero-title {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 178px;
+  margin-bottom: 24px;
+}
+
+.hero-title::selection {
+  background-color: rgba(39, 39, 39, 1);
+  color: #fff;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-description {
+  /* border: 2px solid green; */
+  max-width: 594px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166.667%;
+  margin-bottom: 48px;
+}
+
+.hero-description::selection {
+  background-color: rgba(39, 39, 39, 0.6);
+  color: #fff;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.hero-pic1 {
+  /* border: 2px solid red; */
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  padding: 110px 76px 0px 76px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.hero-pic1::selection {
+  background-color: rgba(167, 33, 98, 0.15);
+  color: #fff;
+}
+
+.hero-pic2 {
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  padding: 117px 47px 51px;
+}
+
+.hero-pic2::selection {
+  background-color: rgba(5, 151, 160, 0.15);
+  color: #fff;
+}
+
+.hero-pic3 {
+  padding: 67px 75px 0px;
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.hero-pic3::selection {
+  background-color: rgba(71, 125, 17, 0.15);
+  color: #fff;
+}
+
+.text {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-around;
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px; /* 145.833% */
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.text::selection {
+}
