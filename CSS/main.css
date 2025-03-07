@@ -75,10 +75,6 @@ header {
 
 /* ! hero section */
 
-.hero {
-  border: 2px solid black;
-}
-
 .hero-title {
   color: #272727;
   text-align: center;
@@ -189,5 +185,30 @@ header {
   text-underline-position: from-font;
 }
 
-.text::selection {
+.text h4::selection {
+  background-color: rgba(39, 39, 39, 1);
+  color: #fff;
+}
+
+/* !delivery section */
+
+.deliver {
+  margin: 8rem 4rem 8rem;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  min-height: 20rem;
+}
+
+.deliver-pic {
+  padding-top: 6rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.deliver-text {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
 }
