@@ -448,4 +448,73 @@ header {
   margin-bottom: 7.5625em;
 }
 
+.search button::selection {
+  background-color: rgba(229, 84, 115, 1);
+  color: rgba(255, 255, 255, 1);
+}
 
+/* !footer */
+
+footer {
+  background-color: #111010;
+  min-height: 28rem;
+}
+
+footer h1 {
+  padding-top: 8rem;
+  padding-left: 39rem;
+  padding-bottom: 1.5rem;
+  color: #e55473;
+  font-family: Lato;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.highlight2 {
+  color: #fff;
+  font-family: Lato;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+footer h1::selection {
+  background-color: rgba(229, 84, 115, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.first {
+  /* border: 2px solid white; */
+  max-width: 39.0625rem;
+  min-height: 4rem;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-family: Lato;
+  font-size: 1.0125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166.667%;
+  margin-left: 28rem;
+  margin-bottom: 2rem;
+}
+
+.first::selection {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.second {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.second::selection {
+  color: rgba(255, 255, 255, 0.4);
+}
