@@ -322,7 +322,7 @@ header {
 /* ! Instagram */
 
 .insta {
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
   padding: 4rem;
 }
 
@@ -366,3 +366,86 @@ header {
 
   gap: 1.3rem;
 }
+
+/* !Email section */
+
+.search {
+  background-image: url("/FlowerAsset/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  margin: 4rem;
+  min-height: 449px;
+  border-radius: 8px;
+}
+
+.search h1 {
+  padding-top: 7.5rem;
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.search h1::selection {
+  background-color: rgba(39, 39, 39, 1);
+  color: #fff;
+}
+
+.search p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166.667%;
+  margin-bottom: 3rem;
+}
+
+.search p::selection {
+  background-color: rgba(39, 39, 39, 0.6);
+  color: #fff;
+}
+
+.search input {
+  width: 43rem;
+  height: 4rem;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  color: rgba(39, 39, 39, 0.6);
+  /* text-align: center; */
+  padding: 1.2rem;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  margin-left: 17em;
+}
+
+.search input {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.search button {
+  height: 4rem;
+  width: 9.375rem;
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 1em;
+  margin-bottom: 7.5625em;
+}
+
+
