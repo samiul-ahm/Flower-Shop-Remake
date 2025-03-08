@@ -210,5 +210,159 @@ header {
 .deliver-text {
   display: flex;
   justify-content: space-around;
-  padding: 2em;
+  margin-top: 1.5rem;
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145.833%;
+  /* padding-bottom: 6rem; */
+}
+
+.d1::selection,
+.d2::selection,
+.d3::selection {
+  background-color: rgba(39, 39, 39, 0.8);
+  color: #fff;
+}
+
+/* !Flower-card */
+
+.flower-card {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  max-height: 38rem;
+  background-image: url("/FlowerAsset/pngwing8.png");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 15rem) 6rem;
+}
+
+.flower-card::selection {
+  background-color: rgba(229, 84, 115, 0.05);
+  color: #fff;
+}
+
+.flower-card-text {
+  padding-top: 14.375rem;
+  padding-left: 15rem;
+}
+
+.flower-card h1 {
+  color: #272727;
+  font-family: Lato;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 1.5rem;
+}
+
+.flower-card h1::selection {
+  background-color: rgba(39, 39, 39, 1);
+  color: #fff;
+}
+
+.highlight {
+  color: #e55473;
+  font-family: Lato;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.highlight::selection {
+  background-color: rgba(229, 84, 115, 1);
+  color: #fff;
+}
+
+.flower-card p {
+  width: 594px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166.667%;
+}
+
+.flower-card p::selection {
+  background-color: rgba(39, 39, 39, 0.6);
+  color: #fff;
+}
+
+.flower-card button {
+  margin-top: 1.5rem;
+  width: 155px;
+  height: 64px;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-flex;
+  padding: 20px 43px;
+  align-items: flex-start;
+  border: none;
+  margin-left: 11rem;
+  margin-bottom: 8rem;
+}
+
+.flower-card button::selection {
+  background-color: rgba(229, 84, 115, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+/* ! Instagram */
+
+.insta {
+  border: 2px solid purple;
+  padding: 4rem;
+}
+
+.insta-text h1 {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 1.5rem;
+}
+
+.insta-text h1::selection {
+  background-color: rgba(39, 39, 39, 1);
+  color: #fff;
+}
+
+.insta-text p {
+  color: rgba(39, 39, 39, 0.6);
+  margin-left: 25rem;
+  margin-bottom: 3rem;
+  max-width: 594px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166.667%;
+}
+
+.insta-text p::selection {
+  background-color: rgba(39, 39, 39, 0.6);
+  color: #fff;
+}
+
+.insta-pic {
+  display: flex;
+  justify-content: center;
+
+  gap: 1.3rem;
 }
