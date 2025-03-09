@@ -201,16 +201,20 @@ header {
 
 .deliver-pic {
   padding-top: 6rem;
+  padding-left: 19rem;
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+  gap: 22.25rem;
   align-items: center;
   margin-bottom: 1.5rem;
 }
 
 .deliver-text {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   margin-top: 1.5rem;
+  margin-left: 9rem;
+  gap: 6rem;
   color: rgba(39, 39, 39, 0.8);
   text-align: center;
   font-family: Lato;
@@ -372,6 +376,7 @@ header {
 .search {
   background-image: url("/FlowerAsset/Rectangle\ 9.png");
   background-repeat: no-repeat;
+  background-position: center;
   margin: 4rem;
   min-height: 449px;
   border-radius: 8px;
@@ -462,7 +467,7 @@ footer {
 
 footer h1 {
   padding-top: 8rem;
-  padding-left: 39rem;
+  padding-left: 40rem;
   padding-bottom: 1.5rem;
   color: #e55473;
   font-family: Lato;
@@ -470,6 +475,7 @@ footer h1 {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  /* text-align: center; */
 }
 
 .highlight2 {
@@ -491,28 +497,27 @@ footer h1::selection {
   max-width: 39.0625rem;
   min-height: 4rem;
   color: rgba(255, 255, 255, 0.9);
-  text-align: center;
   font-family: Lato;
   font-size: 1.0125rem;
   font-style: normal;
   font-weight: 400;
   line-height: 166.667%;
-  margin-left: 28rem;
+  margin-left: 30rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
-
 .first::selection {
   color: rgba(255, 255, 255, 0.9);
 }
 
 .second {
-  color: rgba(255, 255, 255, 0.4);
-  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
   font-family: Lato;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 166.667%;
+  text-align: center;
 }
 
 .second::selection {
