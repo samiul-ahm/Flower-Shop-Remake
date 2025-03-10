@@ -523,3 +523,103 @@ footer h1::selection {
 .second::selection {
   color: rgba(255, 255, 255, 0.4);
 }
+
+.hidden {
+  display:none;
+}
+
+@media screen and (min-width: 676px){
+  .head-container {
+    margin: 3rem;
+    padding: 0;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header {
+    padding: 0;
+    background-image: none;
+  }
+  .hero-container {
+    padding-left: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .deliver-pic, .deliver-text {
+    padding-left: 2rem;
+    gap: 4rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .flower-card {
+    background-image: none;
+  }
+
+  .flower-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: none;
+    padding: 2rem;
+    margin: 0;
+
+  }
+  .flower-card-text button {
+    margin: 0;
+    padding: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+    .insta {
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* flex-direction: column; */
+    }
+    .insta-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 0;
+      padding: 2rem;
+    }
+    .insta-pic {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .search {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .search button {
+      margin-top: 2rem;
+    }
+    footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding-left: 0;
+      padding: 0;
+    }
+    footer input {
+      width: 6rem;
+    }
+}
