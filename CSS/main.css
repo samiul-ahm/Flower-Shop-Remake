@@ -238,7 +238,7 @@ header {
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
   max-height: 38rem;
-  background-image: url("/FlowerAsset/pngwing8.png");
+  background-image: url('../FlowerAsset/pngwing8.png');
   background-repeat: no-repeat;
   background-position: calc(100% - 15rem) 6rem;
 }
